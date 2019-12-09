@@ -18,11 +18,11 @@ class Dog
   end 
 
   def self.clear_all
-    @all 
+    @all.clear_all
   end 
 
   def self.print_all 
-    puts @name 
+    puts 
   end 
 
 end 
